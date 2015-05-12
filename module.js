@@ -7,7 +7,6 @@ fs.readFile(filename, function(err, data) {
 
   fs.writeFile(filename + ".copy", data.toString(), function (err) {
     if (err) throw err;
-
-    console.log('It\'s saved!');
+    console.log('It saved!');
   });
 });
